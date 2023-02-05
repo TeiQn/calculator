@@ -7,22 +7,28 @@
     <title>Calculator</title>
 </head>
 <body>
- <button id = "num">1</button>
- <button id = "num">2</button>
- <button id = "num">3</button>
- <button id = "num">4</button>
- <button id = "num">5</button>
- <button id = "num">6</button>
- <button id = "num">7</button>
- <button id = "num">8</button>
- <button id = "num">9</button>
- <button id = "num">0</button>
- <button class = "operate" id = "add">+</button>
- <button class = "operate" id = "sub">-</button>
- <button class = "operate" id = "mult">x</button>
- <button class = "operate" id = "div">/</button>
- <button id = "eqa">=</button>
- <output name = "ans"></output>
- <script src="script.js" defer></script>
+    <div class = "calculator">
+        <div class = "screen">
+            <div id = "last-op"></div>
+            <div id = "current-op">0</div>
+        </div>
+        <button id = "num" data-number>1</button>
+        <button id = "num" data-number>2</button>
+        <button id = "num" data-number>3</button>
+        <button id = "num" data-number>4</button>
+        <button id = "num" data-number>5</button>
+        <button id = "num" data-number>6</button>
+        <button id = "num" data-number>7</button>
+        <button id = "num" data-number>8</button>
+        <button id = "num" data-number>9</button>
+        <button id = "num" data-number>0</button>
+        <button class = "operate" id = "add" data-operator>+</button>
+        <button class = "operate" id = "sub" data-operator>-</button>
+        <button class = "operate" id = "mult" data-operator>x</button>
+        <button class = "operate" id = "div" data-operator>/</button>
+        <button id = "eqa">=</button>
+        <output name = "ans"></output>
+        <script src="script.js" defer></script>
+    </div>
 </body>
 </html>
