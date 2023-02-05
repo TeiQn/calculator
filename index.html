@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Calculator</title>
+    <link rel="stylesheet" href="style.css" />
 </head>
 <body>
     <div class = "calculator">
@@ -12,22 +13,24 @@
             <div id = "last-op"></div>
             <div id = "current-op">0</div>
         </div>
-        <button id = "num" data-number>1</button>
-        <button id = "num" data-number>2</button>
-        <button id = "num" data-number>3</button>
-        <button id = "num" data-number>4</button>
-        <button id = "num" data-number>5</button>
-        <button id = "num" data-number>6</button>
-        <button id = "num" data-number>7</button>
-        <button id = "num" data-number>8</button>
-        <button id = "num" data-number>9</button>
-        <button id = "num" data-number>0</button>
-        <button class = "operate" id = "add" data-operator>+</button>
-        <button class = "operate" id = "sub" data-operator>-</button>
-        <button class = "operate" id = "mult" data-operator>x</button>
-        <button class = "operate" id = "div" data-operator>/</button>
-        <button id = "eqa">=</button>
-        <output name = "ans"></output>
+        <div class = "buttons">
+            <button id = "num" data-number>7</button>
+            <button id = "num" data-number>8</button>
+            <button id = "num" data-number>9</button>
+            <button class = "operate" id = "div" data-operator>/</button>
+            <button id = "num" data-number>4</button>
+            <button id = "num" data-number>5</button>
+            <button id = "num" data-number>6</button>
+            <button class = "operate" id = "mult" data-operator>x</button>
+            <button id = "num" data-number>1</button>
+            <button id = "num" data-number>2</button>
+            <button id = "num" data-number>3</button>
+            <button class = "operate" id = "sub" data-operator>-</button>
+            <button id = "dec">.</button>
+            <button id = "num" data-number>0</button>
+            <button id = "eqa">=</button>
+            <button class = "operate" id = "add" data-operator>+</button>
+        </div>
         <script src="script.js" defer></script>
     </div>
 </body>
